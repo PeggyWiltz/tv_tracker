@@ -1,8 +1,8 @@
-<section class="">
+<section class="grey clearfix">
   <%= link_to edit_profile_path @profile do %>
     <%= image_tag asset_path(@profile.image_url), class: "profile_pic sm right rounded" %>
   <% end %>
-  <h2>Your Shows</h2>
+  <h2 class="showsheader">Here is a list of your shows:</h2>
   </section>
 <section class="clearfix thirteen columns">
     <% @profile.shows.each do |show| %>

@@ -31,8 +31,8 @@ button{
 
   border-radius: 5px;
   font-size: 18px;
-  margin-left: 75%;
-  margin-top: 2%;
+  /*margin-left: 75%;
+  margin-top: 2%;*/
 }
 .button{
   background-color: #476145;
@@ -179,4 +179,10 @@ footer p {
 }
 .relative {
   position: relative;
+}
+.showsheader {
+  padding: 5%;
+}
+.sm {
+  width:10%;
 }

@@ -25,13 +25,29 @@
     <h1>Profile Options</h1>
     <%= render 'index_form' %>
   </section>
-  <section class="grey">
+  <section class="tracker_form_wrapper">
     <h1>Password Change</h1>
+    <form class="field">
+      <label for="user_email">Email</label>
+      <br>
+      <input id="user_email">
+      <br>
+      <label for="user_password">Password</label>
+      <br>
+      <input id="user_password">
+      <br>
+      <label for="user_password_confirmation">Password confirmation</label>
+      <br>
+      <input id="user_password_confirmation">
+      <br>
+      <label for="user_current_password">Current password</label>
+      <br>
+      <input id="user_current_password">
+      <br>
+      <button>Update</button>
+    </form>
+  </section>
 
-  </section>
-  <section>
-    <h1>Delete Profile</h1>
-  </section>
 
 
 
