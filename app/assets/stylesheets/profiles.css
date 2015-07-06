@@ -14,16 +14,12 @@
   padding:4%;
   padding-top: 2%;
 }
-/*
-.profile_pic.sm{
-  max-width:50px;
-  margin-top:10px;
-}*/
-
-/*.profile a:hover{
-  background:none;
-}*/
-
+.newName input{
+  height: 30px;
+  min-width: 300px;
+  font-size: 18px;
+  line-height: 20px;
+}
 .profile_name{
   margin-top: 10%;
   display: inline;
